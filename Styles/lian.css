@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    background: #fafafa;
 }
                                             /* HEADER */
 header {
@@ -19,7 +20,7 @@ header {
 .header-logo {
     width: 131px;
     height: 35px;
-    background: url('../../Lian/logo-header.png');
+    background: url('../Lian/img/logo-header.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -97,6 +98,7 @@ h1, h2 {
     text-align: center;
     padding-left: 15px;
     padding-right: 5px;
+    font-family: 'Roboto' ,sans-serif;
     font-weight: 300;
 }
 .subtitle {
@@ -113,13 +115,13 @@ h1, h2 {
     align-items: center;
 }
 .first {
-    background: url('../../Lian/slider2.png');
+    background: url('../Lian/img/slider2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
 }
 .two {
-    background: url('../../Lian/slider1.png');
+    background: url('../Lian/img/slider1.png');
     background-repeat: no-repeat;
     background-size: cover;    
     background-position: right;
@@ -130,15 +132,11 @@ li {
 }
                                                 /* СЛАЙДЕР */
                                                 /* МЕНЮ ПОД СЛАЙДЕРОМ */
-.list-menu {
-
-    /* border: 1px solid red; */
-  
-}
 .list {
     /* border: 1px solid red; */
     display: flex;
-    margin: 0 266px;
+    margin: 0 235px;
+    padding-inline-start: 0px;
 }
 .product-list a {
     font-weight: 1000;
@@ -166,10 +164,6 @@ hr {
     -ms-transform: rotate(110deg);        
     -o-transform: rotate(110deg);
 }
-.scroll {
-    width: 100%;
-    height: 800px;
-}
 .menu-section {
     border-top: 1px solid #d9d9d9;
     border-bottom: 1px solid #d9d9d9;
@@ -193,5 +187,79 @@ hr {
 }
 img {
     margin-bottom: 35px;
-    border: 1px solid #3c3c3c;
+    /* border: 1px solid #3c3c3c; */
+}
+.center-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+.load-more {
+    text-transform: uppercase;
+    color: white;
+    width: 125px;
+    height: 30px;
+    border-radius: 2px;
+    background: #959595;
+    outline: none;
+    font-weight: 600;
+    border-width: 0;
+    cursor: pointer;
+}
+footer {
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    border-top: 1px solid white;
+}
+.footer-logo {
+    display: block;
+    height: 40px;
+    background-image: url(../Lian/img/logo-header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 64px;
+    margin-bottom: 44px;
+}
+.footer-social {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    height: 61px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.social_link {
+    width: 60px;
+    height: 60px;
+    border-top: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.4;
+
+}
+.social_link img{
+    width: 20px;
+    height: 20px;
+    margin:auto 0;
+}
+.social_link:hover {
+    border-top: 1px solid #000;
+    transition: 0.2s;
+    opacity: 1;
+}
+.copyright {
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 47px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 13px;
+    color: #9c9c9c;
+
+}
+.copyright span {
+    color: black;
 }
