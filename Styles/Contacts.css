@@ -1,0 +1,179 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	background: #D6D6D6;
+}
+.header {
+	width: 100%;
+	height: 13vh;
+	box-shadow: -1px -15px 67px -16px #000000;
+	background: black;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+a {
+		text-decoration: none;
+		color: white;
+		text-transform: uppercase;
+		/*border: 1px solid red;*/
+		padding: 30px;
+		border-radius: 30px;
+		transition: 0.5s;
+}
+.navigation {
+  padding: 10px;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.8s;
+  margin: 0 auto;
+}
+.menunav {
+	padding: 0px;
+	margin: 0;
+	max-width: 1200px;
+	max-height: 10vh;
+	display: flex;
+	transition: 0.7s;
+	/*border: 1px solid red;*/
+}
+.menunav li {
+  list-style: none;
+  margin: 0 10px;
+  align-self:center;
+  text-align: center;
+  color: white;
+  transition: 0.5s;
+}
+li:hover  {
+	margin-top: 20px;
+}
+.one {
+	max-width: 1200px;
+	max-height: 140px;
+	margin: 10px auto;
+	text-align: center;
+}
+h1 {
+	font-size: 42px;
+	cursor: default;
+
+}
+h2 {
+	cursor: default;
+	text-align: center;
+	font-weight: 500;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.two {
+	/*border: 1px solid red; */
+	border-radius: 10px;
+	max-width: 100%;
+	/*max-*/width: 1200px;
+	/*max-*/height: 200px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	outline: 5px;
+	outline-color: cyan;
+	margin: 0 auto;
+}
+.requiz {
+	/*border: 1px solid red; */
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	/*max-*/height: 200px;
+	/*max-*/width: 25%;
+	background: black;
+	color: white;
+	text-align: center;
+}
+.phonenumber {
+	cursor: default;
+	font-weight: 500;
+	font-size: 24px;
+	margin:0;
+	margin-bottom: 5px;
+}
+.map {
+	display: block;
+	background: url('../Images/Maps.png');
+	overflow: hidden;
+	width: 75%;
+	height: 200px;
+
+}
+fieldset {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	border: none;
+	text-align: center;
+	margin: 40px auto 0 auto;
+}
+legend {
+	font-size: 30px;
+	text-align: center;
+	cursor: default;
+	margin-bottom: 20px;
+}
+.forma_about {
+	padding: 5px;
+	width: 230px;
+	height: 30px;
+	font-size: 16px;
+	border: 1px solid black;
+	border-radius: 20px;
+	outline-style: none;
+}
+.feedback {
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 20px;
+	width: 705px;
+	font-size: 16px;
+	margin-top: 20px;
+	resize: vertical;
+	min-height: 110px;
+	outline-style: none;
+}
+.done {
+	padding: 20px 25px;
+	background: black;
+	color: white;
+	border: 1px solid blue;
+	border-radius: 34px;
+	outline-style: none;
+	cursor: pointer;
+	margin-top: 30px;
+}
+footer {
+	margin-top: 50px;
+	width: 100%;
+	height: 13vh;
+	background: black;
+	color: white;
+}
+.forma_about:focus {
+	border: 1px solid red;
+	transition: 0.3s ;
+	background: grey;
+	color: white;
+}
+.feedback:focus {
+	border: 1px solid red;
+	transition: 0.3s ;
+	background: grey;
+	color: white;
+}

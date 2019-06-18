@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #08051b;
+    margin: 0;
+    background-color: #d6e0e6;
+}
+.header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    background: url("Images/Fon.jpg") no-repeat center top;
+    height: 100vh;
+}
+a {
+
+    color: #08051b;
+    text-decoration: none;
+}
+a:hover{
+        color: #4f2523;
+}
+h2 {
+    border-bottom: 2px solid;
+    border-color: #4f2523;
+}
+p {
+    color: #616370;
+    background-color: #c4cace;
+}
+a .href {
+    text-decoration: none;
+}
+.center {
+    width: 100vh;
+    text-align: center;
+}
+.container {
+    padding-left: 15vh;
+    border: 2px solid;
+    border-color: red;
+}
+ul{
+    list-style-image: url(images/flower1.png);
+    border: 2px solid;
+    margin-right:70vh;
+}

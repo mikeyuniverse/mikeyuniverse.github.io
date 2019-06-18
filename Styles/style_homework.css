@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    background: url('../../HomeWork/Images/Fooon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left {
+    height: 100vh;
+    width: 50%;
+    background: black;
+    text-transform: uppercase;
+}
+span a {
+    padding: 15px;
+    background: #000;
+    display: inline-block;
+}
+.title {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 40px;
+    text-align: center;
+    cursor: default;
+}
+.menu {
+    margin-top: 80px;
+}
+.menu-items {
+    list-style-type: none;
+    padding: 0 0 0 0;
+}
+li a{
+    display: block;
+    list-style-type: none;
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+a {
+    text-decoration: none;
+    color: white; 
+    transition: 0.3s;
+}
+li:hover, a:hover {
+    transform: scale(1.15);
+    transition: 0.8s;
+    color: blueviolet;
+}

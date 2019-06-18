@@ -1,0 +1,197 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+                                            /* HEADER */
+header {
+    max-width: 100%;
+    height: 11vh;
+    background: #fff;
+    -webkit-box-shadow: 0px -16px 59px -11px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px -16px 59px -11px rgba(0,0,0,0.45);
+    box-shadow: 0px -16px 59px -11px rgba(0,0,0,0.45);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-logo {
+    width: 131px;
+    height: 35px;
+    background: url('../../Lian/logo-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-menu {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.header-menu ul {
+    margin: auto 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    /* border: 1px solid red; */
+
+}
+a {
+    text-decoration: none;
+}
+.header-menu ul a, .header-menu ul li{
+    font-size: 14px;
+    font-weight: 600;
+    color: #888888;
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+}
+.header-menu ul a{
+    letter-spacing: 2px;
+    margin-right: 41px;
+}
+.header-menu ul li:hover {
+    color: black;
+    transition: 0.3s;
+}
+                                        /* HEADER */
+
+                                            /* SLIDER */
+.slider {
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+}
+h1, h2 {
+    padding: 0;
+    margin: 0;
+}
+.slider-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 700px; */
+    height: 125px;
+    margin: 0 auto;
+    color: white;
+    margin-top:290px;
+    /* margin-bottom: 50%; */
+}
+.title, .subtitle {
+    text-transform: uppercase;
+    font-size: 120%;
+    text-align: center;
+    height: 62px;
+    width: 100%;
+    font-weight: 100;
+}
+.title {
+    font-size: 48px;
+    color: white;
+    letter-spacing: 9px;
+    word-spacing: -1px;
+    background: black;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 5px;
+    font-weight: 300;
+}
+.subtitle {
+    font-size: 18px;
+    color: black;
+    margin-top: 38px;
+    font-weight: 300;
+    letter-spacing: 9px;
+}
+.first, .two {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+}
+.first {
+    background: url('../../Lian/slider2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.two {
+    background: url('../../Lian/slider1.png');
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: right;
+}
+
+li {
+    list-style: none;
+}
+                                                /* СЛАЙДЕР */
+                                                /* МЕНЮ ПОД СЛАЙДЕРОМ */
+.list-menu {
+
+    /* border: 1px solid red; */
+  
+}
+.list {
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 0 266px;
+}
+.product-list a {
+    font-weight: 1000;
+    letter-spacing: 1px;
+    /* border: 1px solid red; */
+    color: black;
+    /* margin: 0 13px; */
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.product-list a:hover,
+.product-list a:focus
+{
+    color: black;
+    opacity:1;
+}
+hr {  
+    border: none;
+    background-color: black;
+    width: 40px;
+    height: 1px;
+    opacity: 0.3;
+    -webkit-transform: rotate(110deg);      
+    -moz-transform: rotate(110deg);       
+    -ms-transform: rotate(110deg);        
+    -o-transform: rotate(110deg);
+}
+.scroll {
+    width: 100%;
+    height: 800px;
+}
+.menu-section {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 22px 0px;
+    margin: 39px 50px 0px 50px;
+}
+
+                                    /* GALERY  */
+
+.galery {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.galery .column_1,.galery .column_2,.galery .column_3 {
+    width: 361px;
+}
+.column_1, .column_2 {
+    margin-right: 30px;
+}
+img {
+    margin-bottom: 35px;
+    border: 1px solid #3c3c3c;
+}

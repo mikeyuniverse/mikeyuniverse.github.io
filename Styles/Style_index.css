@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+ .white {
+    /*border: 2px red solid;*/
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    text-transform: uppercase;
+    background-color: #16a085;
+ }
+ h1 {
+    /*border: 2px solid red;*/
+    font-size: 10vh;
+ }
+ .fraze {
+    font-weight: 800;
+    position: relative;
+    top: 5vh;
+    left: 5vh;
+    right: 5vh;
+    /*transition: 0.9s;*/
+ }
+ .loho{
+    /*border: 2px solid red;*/
+    text-decoration: none;
+    font-size: 50px;
+    position: relative;
+    left: 0vh;
+    top: 10vh;
+    /*border: 2px solid red;*/
+    /*border-radius: 15px;*/
+    color: #000;
+    transition: 0.9s;
+ }
+ .sm {
+    /*border: 2px solid red;*/
+    display: block;
+    text-align: center;
+ }
+.black {
+    background-color: black;
+    float: right;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+.minu {
+    /*border: 2px blue solid;*/
+    padding-top: 10vh;
+    line-height: 2;
+    transition: 0.4s;
+    text-decoration: none;
+    color: white;
+    padding-left: 0;
+}  
+ul li a{
+    width: 310px;
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #000;
+    font-size: 6vh;
+    text-decoration: none;
+    /* margin: 0 auto; */
+}
+
+ul li a:hover {
+    transform: scale(1.2) translateX(-30px);
+    /* font-size: 66px; */
+    transition: 0.4s;
+}
+.firsttable {
+    height: 100vh;
+    background-color: white;
+}
+li {
+    list-style-type: none;
+}
+div .but {
+    border: 2px solid red;
+    font-size: 72px;
+    font-weight: 500;
+    width: 35vh;
+    height: 20vh;
+    text-align: center;
+    color: white;
+    margin-top: 19vh;
+    display: block;
+    margin-left: 25%;
+}
+/*.b {
+    text-decoration: none;
+    color: white;
+}
+*/

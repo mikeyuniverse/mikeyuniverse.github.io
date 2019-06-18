@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-left: 5vh;  
+    margin: 0;
+    background-image: url(Images/Texture2.jpg) ;
+    background-attachment: fixed;
+}
+.header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    background: url("Images/Fon.jpg") no-repeat center top;
+    height: 100vh;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    color:white;
+}
+h2 {
+    border-bottom: 2px solid;
+    border-color: #4f2523;
+}
+p {
+    color: ;
+    background-color: #c4cace;
+}
+a .href {
+    text-decoration: none;
+}
+.center {
+    width: 100vh;
+    text-align: center;
+}
+hr {
+    opacity: .1;
+}
+.conteiner {
+    display: flex;
+    margin: 0px 50px;
+}

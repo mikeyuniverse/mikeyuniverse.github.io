@@ -1,0 +1,37 @@
+body{
+    margin: 0px 25vh;
+    background-color: #3B4368;
+    color:#E9E9EC;
+    font-size: 18px;
+}
+h1{
+    margin-left: 15vh;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+.contaner{
+    text-align: center;
+}
+input{
+    margin-bottom: 10px;
+}
+.kuhnya {
+    font-size: 22px;
+    font-style: bold;
+}
+a li {
+    color: white;
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.maeneu {
+    text-align: center;
+
+}
+ul {
+    font-size: 24px;
+}
+input [type="submit"] {
+    border: 5px 15px;
+}
