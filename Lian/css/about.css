@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+/* ABOUT */
+.notebook {
+    background: url('../img/about_notebook.png');
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.about_the_agency {
+    position: absolute;
+    width: 100%;
+    margin-left: 230px;
+    text-transform: uppercase;
+    font-weight: lighter;
+} 
+.about {
+    position: relative;
+    display: block;
+    font-size: 48px;
+    color: white;
+    background: black;
+    width: 590px;
+    height: 57px;
+    text-align: center;
+    letter-spacing: 6px;
+    margin: 115px 0px 44px 0px;
+}
+.welcome {
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 7px;
+    margin-bottom: 120px;
+    text-transform: uppercase;
+}
+/* ABOUT */
+/* STORY */
+.our_story {
+    min-width: 1140px;
+    min-height: 600px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 71px;
+    background: #fafafa;
+}
+.our_story img {
+    margin-right: 27px;
+    margin-left: 228px;
+}
+.Story {
+    margin-left: 27px;
+    margin-right: 234px;
+}
+.story_title {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+.story1 {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+.bottom {
+    margin-bottom: 30px;
+}
+.skills {
+    height: 265px;
+    border: 1px solid red;
+}
