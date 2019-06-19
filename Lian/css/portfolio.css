@@ -95,7 +95,6 @@ a {
 /* ABOUT */
 /* МЕНЮ ПОД СЛАЙДЕРОМ */
 .list {
-    /* border: 1px solid red; */
     display: flex;
     margin: 0 235px;
     padding-inline-start: 0px;
@@ -103,9 +102,7 @@ a {
 .product-list a {
     font-weight: 1000;
     letter-spacing: 1px;
-    /* border: 1px solid red; */
     color: black;
-    /* margin: 0 13px; */
     text-transform: uppercase;
     opacity: 0.6;
 }
@@ -149,7 +146,6 @@ hr {
 }
 img {
     margin-bottom: 35px;
-    /* border: 1px solid #3c3c3c; */
 }
 .center-button {
     display: flex;
@@ -178,7 +174,7 @@ footer {
 .footer-logo {
     display: block;
     height: 40px;
-    background-image: url(../Lian/img/logo-header.png);
+    background-image: url('../img/logo-header.png');
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 64px;
