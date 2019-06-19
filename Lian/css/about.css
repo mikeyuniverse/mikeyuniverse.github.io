@@ -44,7 +44,6 @@ body {
     min-width: 1140px;
     min-height: 600px;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     margin-top: 71px;
     background: #fafafa;
@@ -78,4 +77,31 @@ body {
 .skills {
     height: 265px;
     border: 1px solid red;
+}
+/* AWESOME TEAM */
+.team {
+    background: #fafafa;
+    margin-top: 65px;
+}
+.team-description{
+    width: 615px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+.team-description-title {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.team-description-text {
+    font-family: 'Roboto';
+    margin-top: 42px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #777777;
+    line-height: 25px;
+    margin-bottom: 70px;
 }
