@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: #fafafa;
+}
+/* HEADER */
+header {
+    max-width: 100%;
+    height: 11vh;
+    background: #fff;
+    -webkit-box-shadow: 0px -16px 59px -11px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px -16px 59px -11px rgba(0,0,0,0.45);
+    box-shadow: 0px -16px 59px -11px rgba(0,0,0,0.45);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-logo {
+    width: 131px;
+    height: 35px;
+    background: url('../img/logo-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-menu {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.header-menu ul {
+    margin: auto 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    /* border: 1px solid red; */
+
+}
+a {
+    text-decoration: none;
+}
+.header-menu ul a, .header-menu ul li{
+    font-size: 14px;
+    font-weight: 600;
+    color: #888888;
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+}
+.header-menu ul a{
+    letter-spacing: 2px;
+    margin-right: 41px;
+}
+.header-menu ul li:hover {
+    color: black;
+    transition: 0.3s;
+}
+/* HEADER */
+/* ABOUT */
+.wall {
+    background: url('../img/portfolio-wall.png');
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.about_the_agency {
+    position: absolute;
+    width: 1199px;
+    margin-left: 230px;
+    text-transform: uppercase;
+    font-weight: lighter;
+} 
+.about {
+    position: relative;
+    display: block;
+    font-size: 48px;
+    color: white;
+    background: black;
+    width: 590px;
+    height: 57px;
+    text-align: center;
+    letter-spacing: 6px;
+    margin: 115px 0px 44px 0px;
+}
+.welcome {
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 7px;
+    margin-bottom: 120px;
+    text-transform: uppercase;
+}
+/* ABOUT */
+/* МЕНЮ ПОД СЛАЙДЕРОМ */
+.list {
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 0 235px;
+    padding-inline-start: 0px;
+}
+.product-list a {
+    font-weight: 1000;
+    letter-spacing: 1px;
+    /* border: 1px solid red; */
+    color: black;
+    /* margin: 0 13px; */
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.product-list a:hover,
+.product-list a:focus
+{
+    color: black;
+    opacity:1;
+}
+hr {  
+    border: none;
+    background-color: black;
+    width: 40px;
+    height: 1px;
+    opacity: 0.3;
+    -webkit-transform: rotate(110deg);      
+    -moz-transform: rotate(110deg);       
+    -ms-transform: rotate(110deg);        
+    -o-transform: rotate(110deg);
+}
+.menu-section {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 22px 0px;
+    margin: 39px 50px 0px 50px;
+}
+
+                                    /* GALERY  */
+
+.galery {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.galery .column_1,.galery .column_2,.galery .column_3 {
+    width: 361px;
+}
+.column_1, .column_2 {
+    margin-right: 30px;
+}
+img {
+    margin-bottom: 35px;
+    /* border: 1px solid #3c3c3c; */
+}
+.center-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+.load-more {
+    text-transform: uppercase;
+    color: white;
+    width: 125px;
+    height: 30px;
+    border-radius: 2px;
+    background: #959595;
+    outline: none;
+    font-weight: 600;
+    border-width: 0;
+    cursor: pointer;
+}
+footer {
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    border-top: 1px solid white;
+}
+.footer-logo {
+    display: block;
+    height: 40px;
+    background-image: url(../Lian/img/logo-header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 64px;
+    margin-bottom: 44px;
+}
+.footer-social {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    height: 61px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.social_link {
+    width: 60px;
+    height: 60px;
+    border-top: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.4;
+
+}
+.social_link img{
+    width: 20px;
+    height: 20px;
+    margin:auto 0;
+}
+.social_link:hover {
+    border-top: 1px solid #000;
+    transition: 0.2s;
+    opacity: 1;
+}
+.copyright {
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 47px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 13px;
+    color: #9c9c9c;
+
+}
+.copyright span {
+    color: black;
+}
+li {
+    list-style: none;
+}
