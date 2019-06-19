@@ -103,5 +103,44 @@ body {
     font-weight: 500;
     color: #777777;
     line-height: 25px;
-    margin-bottom: 70px;
+}
+.team-experts {
+    display: flex;
+    justify-content: center;    
+    margin-top: 70px;
+    margin-bottom: 75px;
+}
+.team-experts-albert {
+    margin: 0 35px;
+}
+.team-experts-lian, 
+.team-experts-albert, 
+.team-experts-jenn {
+    background: #fff;
+    width: 358px;
+}
+img {
+    margin: 0;
+}
+.experts-description {
+    margin: 35px;
+}
+.experts-name {
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: black;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+.experts-job {
+    font-weight: bold;
+    font-size: 16px;
+    color: #777777;
+}
+.experts-about {
+    font-weight: 500;
+    font-size: 14px;
+    color: #9c9c9c;
+    margin-top: 25px;
 }
