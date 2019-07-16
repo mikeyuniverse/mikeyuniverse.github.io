@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* ABOUT */
+.notebook {
+    background: url('../img/about_notebook.png');
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.about_the_agency {
+    position: absolute;
+    width: 1199px;
+    margin-left: 230px;
+    text-transform: uppercase;
+    font-weight: 300;
+} 
+.about {
+    position: relative;
+    display: block;
+    font-size: 48px;
+    color: white;
+    background: black;
+    width: 500px;
+    height: 57px;
+    text-align: center;
+    letter-spacing: 6px;
+    margin: 115px 0px 44px 0px;
+}
+.welcome {
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 7px;
+    margin-bottom: 120px;
+    text-transform: uppercase;
+}
+/* ABOUT */
+/* CONTACTS */
+.info {
+    display: flex;
+    padding: 64px 200px 0px 200px;
+    color: black;
+    margin-bottom: 80px;
+}
+.contacts {
+    width: 400px;
+}
+.block {
+    display: block;
+}
+.feed {
+    width: 715px;
+}
+input[type= submit] {
+    display: block;
+    padding: 10px 40px;
+    background: #000;
+    color: white;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+textarea {
+    margin-top: 21px;
+    height: 125px;
+    max-width: 618px;
+    min-width: 618px;
+}
+input[type=email], input[type=name] {
+    height: 25px;
+    width: 300px;
+}
+input, textarea {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+input[type=email]:focus, 
+input[type=name]:focus, 
+textarea:focus {
+    border-left: 2px solid rgba(0, 0, 0, 0.3);
+}
+.values {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    opacity: 0.7;
+    margin-top: 6px;
+}
+.bold {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.contactstitledescr {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    opacity: 0.6;
+    margin-top: 6px;
+}
+.contactstitledescr::before{
+    content: '';
+
+}
+.contacts.title, h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 29px;
+    letter-spacing: 13px;
+}
+.number {
+    font-weight: 600;
+    opacity: 0.7;
+    color: #000;
+}
+.top {
+    margin: 40px 0 0 0;
+}
+.middle {
+    margin: 20px 0;
+}
+.tphone {
+    margin: 0 0 4px 0;
+}
+.faxx {
+    margin: 0;
+}
+/* MAP */
+iframe {
+    width: 100%; 
+    height: 300px; 
+    border: 0;
+}
+/* OUR VALUES */
+.value_container img {
+    margin: 0;
+}
+.valuestitle {
+    width: 800px;
+    text-align: center;
+    margin: 50px auto;
+}
+.valuestitle p{
+    text-transform: unset;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 14px;
+    word-spacing: 9px;
+    margin-top: 45px;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+.value3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+.value_container {
+    width: 355px;
+    margin: 0 20px;
+}
+.value3_title {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    margin: 25px 0 35px 0;
+}
+.value3_descr {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    opacity: 0.6;   
+}
